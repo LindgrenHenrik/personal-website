@@ -136,7 +136,7 @@ params:
     intro: "Hi, my name is"
     title: "Henrik."
     subtitle: "I solve problems."
-    content: "A passionate engineer with a love solving problems and learning. I am currently working as a software developer at [Volvo Cars](https://www.linkedin.com/company/volvocars) in Gothenbug, Sweden."
+    content: "A passionate engineer with a love solving problems and learning. I am currently working as a Software Developer at [Volvo Cars](https://www.linkedin.com/company/volvocars) in Gothenbug, Sweden."
     image: /images/henrik-rail-car-SF.png
     bottomImage:
       enable: true
@@ -163,9 +163,11 @@ params:
     title: "About Me"
     image: "/images/henrik-cowboy-present.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I'm a Control Systems Engineer with a passion for developing innovative and efficient solutions. My background in Electrical and Mechanical Engineering, combined with my hands-on experience at Volvo Cars, has equipped me with a strong foundation in control theory, data analysis, and software development.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I thrive on tackling complex challenges, as demonstrated by my work on designing and implementing control strategies for next-generation electric vehicles and developing a fully automated data infrastructure. I'm driven by a desire to optimize systems and improve product quality, and I'm always eager to explore new technologies and methodologies.
+
+      Outside of work, I enjoy diving into personal projects, such as building a home server and creating a Discord image generation bot, which allows me to expand my skills and explore new areas of interest.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -184,44 +186,53 @@ params:
     items:
       - job: "Senior Software Developer"
         company: "Volvo Cars"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        companyUrl: "https://www.linkedin.com/company/volvocars"
+        date: "Aug 2021 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+            As a Control Systems Engineer at Volvo Cars, I've been instrumental in developing and implementing critical software solutions for next-generation electric vehicles. 
 
-      - job: "Software Developer"
+            Key Achievements:
+              - Designed, implemented, tested, and calibrated control strategies for the cooling and heating systems of Volvo and Polestar's latest electric vehicles, now in production.
+              - Developed a fully automated data infrastructure for a large department, utilizing Python scripting for efficient data extraction, creating a metadata website, and automating fault detection, resulting in significant improvements to data accessibility and analysis, and saving hundreds of hours.
+              - Spearheaded the development of a fully automated logging system that competes with established industry equipment, leveraging in-depth knowledge of Volvo car systems to provide superior functionality with automatic log uploads and zero user interaction, potentially saving Volvo millions and accelerating development cycles.
+      - job: "Thesis Worker"
         company: "Scania"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        companyUrl: "https://www.linkedin.com/company/scania"
+        date: "Jan 2021 - Jun 2021"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I wrote my thesis at Scania together with my student friend Björn Kleman.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Conducted master's thesis research at Scania in collaboration with Björn Kleman, focusing on advanced diagnostics for industrial systems.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          Supervisors: Daniel Jung, Erik Frisk, Håkan Warnquist (Scania)
 
-      - job: "Junior Software Developer"
+          Key Contributions:
+            - Evaluated the effectiveness of hybrid data-driven and model-based diagnostic techniques compared to traditional methods.
+            - Developed and implemented a Recurrent Neural Network (RNN) to model system states and sensor equations within an industrial context.
+
+      - job: "Reseach Engineer"
         company: "Newton Nordic"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+        companyUrl: "https://www.linkedin.com/company/newtonnordic"
+        date: "Jun 2020 - Oct 2020"
         info:
           enable: false
         featuredLink:
+          name: "Article about the project"
           enable: true
-          url: "https://example.com"
+          url: "https://liu.se/en/news-item/modellen-funkade-inte-men-det-gjorde-sommarjobbet"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Selected alongside a top-performing colleague in Control Engineering, we collaborated with Newton Nordic through LINK-SIC to enhance their product's control systems.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Succesfully modelled a highly nonlinear 3-axis camera gimbal. System identification, exploring techniques such as Grey box/black box modelling and machine learning.
+          - Researched the possibilities of controlling a camera gimble with the use of a system model instead of the current manual tuning. A proof of concept showing promising results.
 
       # - job: "UI/UX Designer"
       #   company: "Netflix"
@@ -251,29 +262,32 @@ params:
       - title: "Master of Science in Electrical Engineering"
         school:
           name: "Linköping University"
-          url: "https://example.org"
-        date: "2013 - 2015"
+          url: "https://liu.se/"
+        date: "2020 - 2021"
+        #GPA: "3.8 out of 5.0"
+        content: |-
+          Published scientific a paper together with my student friend Björn Kleman and our supervisor Daniel Jung.
+
+      - title: "Master of Science in Electrical Engineering"
+        school:
+          name: "Southampton University"
+          url: "https://www.southampton.ac.uk/"
+        date: "2019 - 2020"
         #GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Ultimate frisbee
       - title: "Bachelor of Science in Mechanical Engineering"
         school:
           name: "Linköping University"
-          url: "https://example.org"
-        date: "2009 - 2013"
+          url: "https://liu.se/"
+        date: "2016 - 2019"
         #GPA: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Took care of the economics of my student organization.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
       # - title: "High School"
@@ -312,50 +326,53 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Henriklindgren.com
+        content: My portfolio site hosted in my apartment on my server.
+        image: /images/henriklindgrencom.png
+        # featured:
+        #   name: Link
+        #   link: https://henriklindgren.com/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Docker"
+          - "Server"
+          - "Linux"
+          - "CV"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/LindgrenHenrik/personal-website
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Discord Bot Using Stable Diffusion
+        content: A discord bot that generates images using stable diffusion also hosted on my server in my apartment.
+        image: /images/discordbot.png
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Discord"
+          - "Python"
+          - "Docker"
+          - "Linux"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Home Server
+        content: My home server build
+        image: /images/server.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Ubuntu Server"
+          - "Nvidia GTX 980"
+          - "Intel 12300"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/LindgrenHenrik/home-server
 
   #Contact
   contact:
